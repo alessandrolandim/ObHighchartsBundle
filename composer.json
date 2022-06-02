@@ -1,7 +1,7 @@
 {
-    "name": "ob/highcharts-bundle",
+    "name": "alessandrolandim/highcharts-bundle",
     "type": "symfony-bundle",
-    "description": "Symfony Bundle that ease the use of highcharts to display rich graph and charts in your app",
+    "description": "Fork Symfony Bundle that ease the use of highcharts to display rich graph and charts in your app",
     "keywords": ["symfony", "charting", "charts", "highcharts", "chart", "graph", "graphs", "ob", "marcaube"],
     "homepage": "https://github.com/marcaube/ObHighchartsBundle",
     "license": "MIT",
@@ -12,7 +12,7 @@
     ],
 
     "require": {
-        "php": "^7.2",
+        "php": "^7.4 || ^8.0",
         "symfony/http-kernel": "^4.4 || ^5.0",
         "symfony/dependency-injection": "^4.4 || ^5.0",
         "symfony/config": "^4.4 || ^5.0",
